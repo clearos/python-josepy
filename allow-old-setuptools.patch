@@ -1,0 +1,12 @@
+diff -rup josepy-1.0.1/setup.py josepy-1.0.1-setuptools/setup.py
+--- josepy-1.0.1/setup.py	2017-10-25 14:30:02.000000000 -0400
++++ josepy-1.0.1-setuptools/setup.py	2018-02-02 11:18:34.865002027 -0500
+@@ -14,7 +14,7 @@ install_requires = [
+     'PyOpenSSL>=0.13',
+     # For pkg_resources. >=1.0 so pip resolves it to a version cryptography
+     # will tolerate; see #2599:
+-    'setuptools>=1.0',
++    'setuptools',
+     'six>=1.9.0',  # needed for python_2_unicode_compatible
+ ]
+ 
